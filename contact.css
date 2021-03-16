@@ -1,0 +1,51 @@
+a:-webkit-any-link {
+  /* color: -webkit-link; */
+  cursor: pointer;
+  text-decoration: none;
+}
+span.first {
+  color: springgreen;
+}
+span.second {
+  color: crimson;
+}
+h2 {
+  margin-top: 1rem;
+}
+.contact-content {
+  display: block;
+  height: 80vh;
+  position: relative;
+  margin-top: 1rem;
+}
+.contact-content::after {
+  content: "";
+  background: url(../free-flat-design-digital-marketing-concep-vector.jpg);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: inherit;
+  /* position: relative; */
+  opacity: 0.15;
+  border-radius: 15px;
+  z-index: -1;
+  margin-top: 1rem;
+  /* margin-left: 5rem;
+    margin-right: 5rem; */
+}
+.form-box input,
+textarea {
+  width: 44vw;
+  padding: 10px 6px;
+  margin: 5px 0;
+  border: 4px solid blanchedalmond;
+  border-radius: 8px;
+  font-family: var(--font2);
+  outline: none;
+}
+.contact-form {
+  margin: 1rem;
+}
+footer {
+  margin-top: 1.4rem;
+}

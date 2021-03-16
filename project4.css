@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navigation {
+  height: 75px;
+  /* background-color: darkgoldenrod; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font1);
+}
+.nav-left {
+  font-size: 2rem;
+  display: flex;
+}
+/* .nav-left.logo a{
+    text-decoration: none;
+} */
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: none;
+}
+span.first {
+  color: springgreen;
+}
+span.second {
+  color: crimson;
+}
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0 55px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.nav-left ul li {
+  list-style: none;
+  margin: 0 15px;
+  font-family: var(--font2);
+  /* transition: all .7s ease-in-out; */
+}
+.nav-left ul li a {
+  text-decoration: none;
+  color: rebeccapurple;
+}
+.nav-left ul li a:hover,
+.nav-left ul li a.active {
+  color: coral;
+  font-weight: bolder;
+}
+.nav-right .form-input {
+  padding: 5px;
+  font-size: 1rem;
+  border: 4px solid blanchedalmond;
+  border-radius: 8px;
+  margin: 0 15px;
+  font-family: var(--font1);
+  padding-top: 3px;
+}
+.content {
+  height: 100%;
+  /* background-color: crimson; */
+  display: flex;
+  position: relative;
+  overflow-x: hidden;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.content::after {
+  content: "";
+  background-image: url(../digital-marketing-flat-vector-icon-set.jpg);
+  position: absolute;
+  width: 68.4rem;
+  height: 100%;
+  opacity: 0.15;
+  z-index: -2;
+}
+.content-left {
+  font-family: var(--font1);
+  padding-top: 35px;
+  padding: 55px;
+  /* width: 50%; */
+}
+.content-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.content-right img {
+  height: 10rem;
+  border: 4px solid blanchedalmond;
+  border-radius: 5px 20px 5px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-right: 2rem;
+}
+.home-articles {
+  position: relative;
+  background-color: rgb(248, 221, 221);
+}
+
+.year-box {
+  position: absolute;
+  width: 53px;
+  height: 255px;
+  right: 30px;
+  top: 33px;
+}
+.year-box div {
+  margin-top: 12px 0;
+}
+
+.home-articles h2 {
+  margin-top: 1rem;
+  padding: 1.2rem;
+  padding-bottom: 0;
+}
+.home-article {
+  display: flex;
+  margin: 25px;
+}
+.home-article img {
+  width: 19rem;
+  height: 13rem;
+  padding-top: 1.5rem;
+  padding-left: 0.5rem;
+}
+.home-article-content {
+  align-self: center;
+  padding: 0 25px;
+}
+.home-article-content a {
+  text-decoration: none;
+  color: chartreuse;
+}
+footer {
+  height: 50px;
+  background-color: salmon;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+}
